@@ -1,0 +1,15 @@
+# Python
+agent/.venv/
+__pycache__/
+*.pyc
+
+# Node.js
+sample-app/node_modules/
+sample-app/dist/
+
+# Secrets
+.env
+.env.*
+
+# Allow example environment configuration
+!.env.example
